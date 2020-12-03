@@ -1,0 +1,15 @@
+The latitude specifies a location's distance north or south of the equator. 
+The longitude specifies the location's distance east or west from an imaginary line connecting the North and South Poles, called the Prime Meridian.
+
+Northstar location: lat (N/S): 39.2745678 | long (E/W): -120.1210934
+
+Kirkwood location: lat 38.6847556 | long -120.0673605
+
+Heavenly location: lat 38.9353 | long -119.9399
+
+Server info
+./dist --port 3000 -c-1
+
+
+Bootstrap: https://getbootstrap.com/
+Weather API: https://rapidapi.com/weatherbit/api/weather

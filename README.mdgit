@@ -1,0 +1,1 @@
+# ski-report initgit add README.mdgit commit -m first commitgit remote add origin https://git.generalassemb.ly/ruby-santin/ski-report.gitgit push -u origin master
