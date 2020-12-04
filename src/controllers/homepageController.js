@@ -37,8 +37,23 @@ export default function homepageController() {
         });
       });
     });
-
     // end
+
+    // Event delegation
+    document.addEventListener("click", (event) => {
+      if (event.target.classList.contains("edit-review-link")) {
+        event.preventDefault();
+
+        const reviewId = event.target.getAttribute("data-review-id");
+
+        // Save the user ID to localStorage for retrieval later
+        window.localStorage.setItem("reviewId", reviewId);
+
+        window.location.href = "#/edit-review";
+      }
+    });
+
+    //
     document.getElementById("new-review-form").addEventListener("submit", (event) => {
       event.preventDefault();
 

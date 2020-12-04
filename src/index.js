@@ -7,7 +7,8 @@ const routes = {
   "/northstar": northstarController,
   "/heavenly": heavenlyController,
   "/kirkwood": kirkwoodController,
-  "/homepage": homepageController
+  "/homepage": homepageController,
+  "/edit-review": editReviewController
 };
 
 function setRoute() {
