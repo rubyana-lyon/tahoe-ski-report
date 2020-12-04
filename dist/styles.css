@@ -1,14 +1,25 @@
 .page-title {
   color: #3581c4;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-weight: bold;
 }
 
 .mtn-review {
   color: #3581c4;
   font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.welcome {
+  color: #3581c4;
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
