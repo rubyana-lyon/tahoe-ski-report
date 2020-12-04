@@ -30,11 +30,15 @@ export default function heavenlyController() {
         console.log(forecast);
 
         const tempCelsius = forecast.temp;
-        const tempFahrenheit = tempCelsius * (9 / 5) + 32;
+        const tempFahrenheit = Math.round(tempCelsius * (9 / 5) + 32);
+        const snowMm = forecast.snow;
+        const snowIn = snowMm * 0.03937;
 
         document.getElementById("root").innerHTML = heavenlyTemplateFunc({
           description: forecast.weather.description,
-          temp: tempFahrenheit
+          temp: tempFahrenheit,
+          snow: snowIn,
+          time: forecast.ob_time
         });
       })
       .catch(function (error) {

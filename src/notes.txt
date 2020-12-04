@@ -13,3 +13,10 @@ Server info
 
 Bootstrap: https://getbootstrap.com/
 Weather API: https://rapidapi.com/weatherbit/api/weather
+
+
+API
+snow_depth
+valid_date[1][2]
+
+data
