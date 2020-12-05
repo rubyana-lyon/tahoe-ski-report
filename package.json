@@ -9,7 +9,7 @@
   },
   "author": "Ruby Santin",
   "license": "ISC",
-  "homepage": "https://pages.git.generalassemb.ly/ruby-santin/ski-report/",
+  "homepage": "https://rubyana-lyon.github.io/tahoe-ski-report",
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
