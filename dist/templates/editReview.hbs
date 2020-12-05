@@ -1,0 +1,59 @@
+<div class="small-container">
+    <h1>All reviews</h1>
+
+    <div>
+        <a href="#/homepage" class="btn btn-primary">Back</a>
+    </div>
+</div>
+
+{{!-- <div class="small-container margin-top-20">
+    <form id="edit-review-form">
+        <div class="well">
+            <div class="bold">
+                Name
+            </div>
+            <div class="margin-top-20">
+                <input id="name" type="text" class="form-control" value="{{ name }}" />
+            </div>
+            <div class="bold margin-top-20">
+                Resort
+            </div>
+            <div class="margin-top-20">
+                <input id="resort" type="text" class="form-control" value="{{ resort }}" />
+            </div>
+            <div class="bold margin-top-20">
+                Review
+            </div>
+            <div class="margin-top-20">
+                <input id="review" type="text" class="form-control" value="{{ review }}" />
+            </div>
+            <div class="margin-top-20 txt-right">
+                <button type="submit" class="btn btn-primary">Edit Review</button>
+                <button id="delete-review-button" type="button" class="btn btn-danger">Delete Review</button>
+            </div>
+        </div>
+    </form>
+</div> --}}
+
+
+<form id="edit-review-form">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">{{name}}</label>
+        <input name="name" class="form-control" id="exampleFormControlInput1" value="{{name}}">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Select resort</label>
+        <select name="resort" class="form-control">
+            <option>Northstar</option>
+            <option>Heavenly</option>
+            <option>Kirkwood</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">How was the mountain?</label>
+        <textarea name="review" class="form-control" id="exampleFormControlTextarea1" rows="3">{{review}}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary col-auto">Save updates</button>
+    <button id="delete-review-button" type="button" class="btn btn-danger">Delete review</button>
+</form>

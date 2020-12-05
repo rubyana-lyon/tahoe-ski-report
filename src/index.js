@@ -2,6 +2,7 @@ import northstarController from "./controllers/northstarController";
 import heavenlyController from "./controllers/heavenlyController";
 import kirkwoodController from "./controllers/kirkwoodController";
 import homepageController from "./controllers/homepageController";
+import editReviewController from "./controllers/editReviewController";
 
 const routes = {
   "/northstar": northstarController,
