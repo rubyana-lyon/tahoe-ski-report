@@ -19,4 +19,7 @@ API
 snow_depth
 valid_date[1][2]
 
-data
+Deploy:
+ npm run deploy
+
+ this is a test
