@@ -1,0 +1,38 @@
+<p class="welcome">Welcome to the Tahoe Ski Review</p>
+
+<form id="new-review-form">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input name="name" class="form-control" id="exampleFormControlInput1" placeholder="Your name here">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Select resort</label>
+        <select name="resort" class="form-control">
+            <option>Northstar</option>
+            <option>Heavenly</option>
+            <option>Kirkwood</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">How was the mountain?</label>
+        <textarea name="review" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+</form>
+
+<p class="mtn-review">What people are saying</p>
+<div class="container margin-top-20">
+    <table class="table tableReview">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Resort</th>
+                <th>Review</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
